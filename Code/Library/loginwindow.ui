@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>LoginWindow</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_3">
     <property name="geometry">
@@ -106,6 +109,9 @@
         <widget class="QLineEdit" name="password">
          <property name="text">
           <string/>
+         </property>
+         <property name="echoMode">
+          <enum>QLineEdit::Password</enum>
          </property>
         </widget>
        </item>
