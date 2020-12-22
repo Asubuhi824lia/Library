@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 4.13.3, 2020-12-22T20:03:44. -->
+=======
+<!-- Written by QtCreator 4.13.3, 2020-12-18T16:32:56. -->
+>>>>>>> c62fc4758a14061fdb2d7629bce25f44137617bd
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -325,8 +329,14 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Vadimatorik/Documents/Qt projects/Library/Library/Code/Library/Library.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Vadimatorik/Documents/Qt projects/Library/Library/Code/Library/Library.pro</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">library2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Vadimatorik/Documents/Qt projects/Library/Library/Code/Library/library.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Vadimatorik/Documents/Qt projects/Library/Library/Code/Library/library.pro</value>
+>>>>>>> c62fc4758a14061fdb2d7629bce25f44137617bd
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

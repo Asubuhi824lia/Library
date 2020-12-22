@@ -33,7 +33,11 @@
      <string>Профиль Администратора</string>
     </property>
    </widget>
+<<<<<<< HEAD
    <widget class="QPushButton" name="RegButton">
+=======
+   <widget class="QPushButton" name="pushButton">
+>>>>>>> c62fc4758a14061fdb2d7629bce25f44137617bd
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -102,6 +106,7 @@
     </hint>
    </hints>
   </connection>
+<<<<<<< HEAD
   <connection>
    <sender>RegButton</sender>
    <signal>clicked(bool)</signal>
@@ -122,5 +127,10 @@
  <slots>
   <slot>Exit()</slot>
   <slot>CreateLibrarianProfile()</slot>
+=======
+ </connections>
+ <slots>
+  <slot>Exit()</slot>
+>>>>>>> c62fc4758a14061fdb2d7629bce25f44137617bd
  </slots>
 </ui>
