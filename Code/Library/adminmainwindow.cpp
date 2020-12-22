@@ -14,7 +14,6 @@ void AdminMainWindow::CreateLibrarianProfile()
     RegistrationWindow* rui = new RegistrationWindow;
     rui->show();
 }
-{}
 
 AdminMainWindow::~AdminMainWindow()
 {

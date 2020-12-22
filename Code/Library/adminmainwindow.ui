@@ -102,8 +102,25 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>AdminMainWindow</receiver>
+   <slot>CreateLibrarianProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>318</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>922</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>Exit()</slot>
+  <slot>CreateLibrarianProfile()</slot>
  </slots>
 </ui>
