@@ -1,5 +1,6 @@
 #include "loginwindow.h"
 #include "ui_loginwindow.h"
+#include "AdminMainWindow.h"
 #include <QMessageBox>
 
 LoginWindow::LoginWindow(QWidget *parent)
@@ -17,15 +18,10 @@ LoginWindow::~LoginWindow()
 void LoginWindow::Authorization()
 {
     if(CheckUser()) {
-        QMessageBox aboutDlg(this);
-        // Включаем расширенное форматирование текста (разновидность HTML, позволяет
-        // выделять текст, ставить ссылки и т. д.) в окне aboutDlg
-        aboutDlg.setTextFormat(Qt::RichText);
-        aboutDlg.setText("Пользователь обнаружен!");
-        aboutDlg.setWindowTitle("Success");
-
-        // Отображаем окно как модальное (блокирующее все остальные окна)
-        aboutDlg.exec();
+        AdminMainWindow* aui = new AdminMainWindow;
+        aui->show();
+        ui->login->clear();
+        ui->password->clear();
     } else {
         QMessageBox aboutDlg(this);
         // Включаем расширенное форматирование текста (разновидность HTML, позволяет
