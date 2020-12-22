@@ -23,12 +23,8 @@ HEADERS += \
 
 FORMS += \
     adminmainwindow.ui \
-<<<<<<< HEAD
     loginwindow.ui \
     registrationwindow.ui
-=======
-    loginwindow.ui
->>>>>>> c62fc4758a14061fdb2d7629bce25f44137617bd
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
