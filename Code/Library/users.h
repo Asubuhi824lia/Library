@@ -23,7 +23,7 @@ namespace User {
 
 class Users
 {
-protected:
+public:
     QVector<User::User> users;
 
 public:

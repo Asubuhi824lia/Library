@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>456</width>
-    <height>542</height>
+    <height>563</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -33,7 +33,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="surname"/>
       </item>
      </layout>
     </item>
@@ -47,7 +47,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_2"/>
+       <widget class="QLineEdit" name="name"/>
       </item>
      </layout>
     </item>
@@ -61,7 +61,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_3"/>
+       <widget class="QLineEdit" name="middleName"/>
       </item>
      </layout>
     </item>
@@ -85,7 +85,7 @@
      </widget>
     </item>
     <item row="1" column="0">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+     <widget class="QLineEdit" name="home_adress"/>
     </item>
     <item row="2" column="0">
      <widget class="QLabel" name="label_5">
@@ -97,7 +97,7 @@
     <item row="3" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_4">
       <item>
-       <widget class="QLineEdit" name="lineEdit_5"/>
+       <widget class="QLineEdit" name="phone"/>
       </item>
       <item>
        <widget class="QComboBox" name="comboBox">
@@ -121,7 +121,7 @@
    <property name="geometry">
     <rect>
      <x>280</x>
-     <y>500</y>
+     <y>520</y>
      <width>141</width>
      <height>31</height>
     </rect>
@@ -134,7 +134,7 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>500</y>
+     <y>520</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -148,8 +148,8 @@
     <rect>
      <x>20</x>
      <y>360</y>
-     <width>231</width>
-     <height>91</height>
+     <width>221</width>
+     <height>101</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
@@ -163,19 +163,19 @@
        </widget>
       </item>
       <item>
-       <widget class="QLineEdit" name="lineEdit_6"/>
+       <widget class="QLineEdit" name="login"/>
       </item>
      </layout>
     </item>
     <item row="1" column="0">
-     <widget class="QLabel" name="label_7">
+     <widget class="QLabel" name="confirm_passw">
       <property name="text">
        <string>Пароль:</string>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_7"/>
+     <widget class="QLineEdit" name="password"/>
     </item>
     <item row="2" column="0" colspan="2">
      <layout class="QHBoxLayout" name="horizontalLayout_7">
@@ -193,6 +193,32 @@
     </item>
    </layout>
   </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>480</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Номер читательского билета:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="library_card_number">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>480</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections>
@@ -204,13 +230,32 @@
    <hints>
     <hint type="sourcelabel">
      <x>91</x>
-     <y>508</y>
+     <y>528</y>
     </hint>
     <hint type="destinationlabel">
-     <x>594</x>
-     <y>638</y>
+     <x>455</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>RegistrationWindow</receiver>
+   <slot>CreateProfile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>341</x>
+     <y>540</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>711</x>
+     <y>607</y>
     </hint>
    </hints>
   </connection>
  </connections>
+ <slots>
+  <slot>CreateProfile()</slot>
+ </slots>
 </ui>

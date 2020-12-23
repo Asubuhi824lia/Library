@@ -11,7 +11,7 @@ AdminMainWindow::AdminMainWindow(QWidget *parent) :
 
 void AdminMainWindow::CreateLibrarianProfile()
 {
-    RegistrationWindow* rui = new RegistrationWindow;
+    RegistrationWindow* rui = new RegistrationWindow('L');
     rui->show();
 }
 
